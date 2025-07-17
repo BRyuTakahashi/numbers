@@ -1,0 +1,17 @@
+#logo {
+  display: flex;
+  flex-direction: row;
+  gap: 0.75rem;
+  align-items: center;
+  margin: 76px 0 0 120px;
+
+  & img {
+    width: 2.125rem;
+    height: 2.125rem;
+  }
+
+  & .logo-title {
+    font: var(--fw-extra-bold) 1.5rem/130% var(--ff-sora);
+    text-transform: uppercase;
+  }
+}
